@@ -1,0 +1,101 @@
+.GoogleHero{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    height: 460px;
+
+
+}
+
+.textField{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 20px;
+    width: 570px;
+    height: 44px;
+    margin: 28px 0;
+    padding: 0 12px;
+    transition: box-shadow .3s;
+    
+}
+
+.textField img{
+    width: 24px;
+    height: 24px;
+}
+
+.textField:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); ;
+}
+
+
+
+.button{
+    display: flex;
+    flex-direction: row;
+    row-gap:12px;
+    width: 300px;
+
+}
+
+.button span{
+    
+    padding: 0 4px;
+    height: 36px;
+    width: 128px;
+    border-radius: 5px;
+    background-color:#F2F2F2;
+    text-align: center;
+    margin: auto;
+    line-height: 36px;
+    color: rgb(85, 85, 85);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+}
+
+.appHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 36px;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    float: left;
+    padding-right: 20px;
+    text-align: center;
+}
+.links{
+    color: rgb(85, 85, 85);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.links:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
